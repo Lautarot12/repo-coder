@@ -41,12 +41,7 @@ body {
   border-radius: 4px;
 }
 
-/* MAIN */
-.main {
-  padding: 20px;
-  max-width: 1200px;
-  margin: auto;
-}
+
 
 .main h1 {
   text-align: center;
