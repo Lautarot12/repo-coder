@@ -10,17 +10,20 @@
 
   <!-- Hoja de estilos -->
   <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Bootstrap Icons (para íconos) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
 
   <div class="container-fluid px-0">
     <!-- HEADER -->
-    <header class="header">
+    <header class="header d-flex justify-content-between align-items-center p-3">
       <a href="#" class="logo">
         <img src="images/logopollosolonuevo.png" alt="logo-avicola-tello" width="100" />
       </a>
       <nav class="nav">
-        <ul class="menu">
+        <ul class="menu d-flex gap-4 list-unstyled mb-0">
           <li><a href="pages/productos.htm">Productos</a></li>
           <li><a href="pages/contacto.html">Contacto</a></li>
           <li><a href="pages/sobre_nosostros.html">Sobre nosotros</a></li>
@@ -31,48 +34,63 @@
 
     <!-- MAIN -->
     <main class="main">
-      <section class="intro text-center my-5">
-        <h1>Bienvenido a Avícola Tello</h1>
-        <p>Ofrecemos productos frescos y de calidad directamente a tu mesa.</p>
+      
+      <!-- HERO con imagen de fondo -->
+      <section class="vh-100 d-flex align-items-center text-white" style="background: url('images/imagenheroindex.png') center/cover no-repeat;">
+        <div class="container text-center bg-dark bg-opacity-50 p-4 rounded">
+          <img src="images/logopollosolonuevo.png" alt="Logo" class="mb-3" style="max-width: 100px;">
+          <h1 class="display-4 fw-bold">Calidad suprema al mejor precio</h1>
+          <a href="pages/productos.htm" class="btn btn-danger btn-lg mt-3">Ver catálogo</a>
+        </div>
       </section>
-      <div class="container py-4">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-8">
-            <!-- CAROUSEL -->
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="5000">
-                  <img src="images/afueradescargando.png" class="d-block w-100" alt="afueradescargando" />
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                  <img src="images/cargamento.jpg" class="d-block w-100" alt="cargamento" />
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                  <img src="images/cartel.jpg" class="d-block w-100" alt="cartel" />
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-              </button>
-            </div>
+
+      <!-- Beneficios -->
+      <section class="container py-5">
+        <div class="row text-center g-4">
+          <div class="col-md-4">
+            <i class="bi bi-award fs-1 text-danger mb-2"></i>
+            <h5>Calidad garantizada</h5>
+            <p>Seleccionamos los mejores productos frescos y precocidos para asegurar tu satisfacción.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-truck fs-1 text-danger mb-2"></i>
+            <h5>Entregas confiables</h5>
+            <p>Contamos con logística propia para garantizar entregas rápidas, seguras y sin sorpresas.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-chat-dots fs-1 text-danger mb-2"></i>
+            <h5>Atención cercana</h5>
+            <p>Respondemos rápido y de forma personalizada.</p>
           </div>
         </div>
-      </div>
+      </section>
+
+      <!-- Mini sobre nosotros -->
+      <section class="bg-light py-5 text-center">
+        <div class="container">
+          <h2 class="mb-3">¿Quiénes somos?</h2>
+          <p class="lead">Somos una distribuidora de productos avícolas frescos, congelados y precocidos. Más de 20 años trabajando con compromiso, seriedad y cercanía.</p>
+          <a href="pages/sobre_nosostros.html" class="btn btn-outline-danger">Conocenos</a>
+        </div>
+      </section>
+
+      <!-- CTA directo -->
+      <section class="bg-danger text-white text-center py-5">
+        <h2>¿Listo para hacer tu pedido?</h2>
+        <p>Consultá nuestro catálogo o contactanos por WhatsApp.</p>
+        <a href="pages/contacto.html" class="btn btn-light btn-lg">Hacer pedido</a>
+      </section>
+
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer">
-      <p>&copy; 2025 Avícola Tello. Todos los derechos reservados.</p>
-      <p>Tel: 2615677596 | Email: telloav@hotmail.com | Dirección: Av. Alem 737, San Martín, Mendoza</p>
+    <footer class="footer text-center py-4 bg-light">
+      <p class="mb-1">&copy; 2025 Avícola Tello. Todos los derechos reservados.</p>
+      <p class="mb-1">Tel: 2615677596 | Email: telloav@hotmail.com | Dirección: Av. Alem 737, San Martín, Mendoza</p>
       <p>
         Redes Sociales:
-        <a href="https://www.facebook.com/avicola.tello">Facebook</a> |
-        <a href="https://www.instagram.com/avicola.tello">Instagram</a>
+        <a href="https://www.facebook.com/avicola.tello" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com/avicola.tello" target="_blank">Instagram</a>
       </p>
     </footer>
   </div>
