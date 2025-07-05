@@ -3,124 +3,86 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../css/styles.css" />
   <title>Avícola Tello | Productos</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/styles.css" />
 </head>
 <body>
-  <div class="grid-layout"> <!--Contenedor principal del layout-->
-    <header class="header"> <!-- Encabezado de la página -->
-      <a href="../index.html" class="logo">
-        <img src="../images/logopollosolonuevo.png" alt="logo-avicola-tello" width="100" />
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../images/logopollosolonuevo.png" alt="logo-avicola-tello" width="80">
       </a>
-      <nav class="nav"> <!-- Barra de navegación -->
-        <ul class="menu">
-          <li><a href="#">Productos</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="sobre_nosostros.html">Sobre nosotros</a></li>
-          <li><a href="Ventas.html">Ventas</a></li>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link active" href="#">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre_nosostros.html">Sobre nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="Ventas.html">Ventas</a></li>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </div>
+  </nav>
+  
 
-    <main class="main-productos"> <!-- Sección principal de productos -->
-        <section class="productos-container"> <!-- Contenedor de productos -->
-            <aside class="categorias"> <!-- Barra lateral de categorías -->
-                <h2>Categorías</h2>
-                <ul>
-                    <li><a href="#">Pollos Frescos</a></li>
-                    <li><a href="#">Pollos Congelados</a></li>
-                    <li><a href="#">Precodidos</a></li>
-                    <li><a href="#">Huevos</a></li>
-                </ul>
-            </aside>
-            <div class="productos-lista"> <!-- Lista de productos -->
-                <ul class="productos"> 
-                    <li>
-                        <img src="../icons/pollosanandres.webp" alt="Pollo Fresco San Andrés" />
-                        <h3>Pollo Fresco San Andrés</h3>
-                        <p>Delicioso pollo fresco, ideal para tus comidas familiares</p>
-                    </li>
-                    <li>
-                        <img src="../icons/pollonoelma.jpeg" alt="Pollo Fresco Fresco Noelma" />
-                        <h3>Pollo Fresco Noelma</h3>
-                        <p>Pollo fresco de alta calidad, perfecto para asados y guisos</p>
-                    </li>
-                    <li>
-                        <img src="../icons/sanpedrocongelado.jpg" alt="Pollo Congelado San Pedro" />
-                        <h3>Pollo Congelado San Pedro</h3>
-                        <p>Pollo congelado de alta calidad, listo para cocinar</p>
-                    </li>
-                    <li>
-                        <img src="../icons/alas.jpg" alt="Alas" />
-                        <h3>Alas</h3>
-                        <p>Alas trozadas frescas y congeladas</p>
-                    </li>
-                    <li>
-                        <img src="../icons/cuarto trasero.jpg" alt="Cuarto Trasero" />
-                        <h3>Cuarto Trasero</h3>
-                        <p>Cuarto trasero fresco y congelado</p>
-                    </li>
-                    <li>
-                        <img src="../icons/supremafresca.webp" alt="Suprema" />
-                        <h3>Suprema</h3>
-                        <p>Suprema fresca y congelada</p>
-                    </li>
-                    <li>
-                        <img src="../icons/pechugaconhues.jpg" alt="Pechuga" />
-                        <h3>Pechuga</h3>
-                        <p>Pechuga fresca y congelada</p>
-                    </li>
-                    <li>
-                        <img src="../icons/medallonpollojyq.jpg" alt="Medallón de pollo con jamón y queso" />
-                        <h3>Medallón de pollo con jamón y queso</h3>
-                        <p>Medallón de pollo con jamón y queso precocido</p>
-                    </li>
-                    <li>
-                        <img src="../icons/medallonpescado.jpg" alt="Medallón de pescado con espinaca y queso" />
-                        <h3>Medallón de pescado con espinaca y queso</h3>
-                        <p>Medallón de pescado con espinaca y queso precocido</p>
-                    </li>
-                    <li>
-                        <img src="../icons/patitas.jpg" alt="Patitas de pollo" />
-                        <h3>Patitas de pollo</h3>
-                        <p>Patitas de pollo precocidas</p>
-                    </li>
-                    <li>
-                        <img src="../icons/bastoncitos.jpg" alt="bastoncitos muzza" />
-                        <h3>Bastoncitos de muzzarella</h3>
-                        <p>Bastncitos rellenos muzzarella precocidos</p>
-                    </li>
-                    <li>
-                        <img src="../icons/filetdemerluzarebozado.png" alt="Filet de merluza rebozado" />
-                        <h3>Filet de merluza rebozado</h3>
-                        <p>Filet de merluza rebozados precocidos</p>
-                    </li>
-                    <li>
-                        <img src="../icons/filetalaromana.jpeg" alt="Filet de merluza a la romana" />
-                        <h3>Filet de merluza a la romana</h3>
-                        <p>Filet de merluza a la romana precocidos</p>
-                    </li>
-                    <li>
-                        <img src="../icons/huevos.webp" alt="Huevos" />
-                        <h3>Huevos frescos</h3>
-                        <p>Huevos frescos por unidad, docena, maple y cajón</p>
-                    </li>
-                </ul>
-                </div>
-        </section>
-    </main>
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="py-5">
+    <div class="container">
+      <h1 class="mb-4 text-center">Nuestros Productos</h1>
+  <!-- CATEGORIAS -->
+      <div class="mb-5 text-center">
+        <span class="badge bg-danger text-white mx-1">Pollos Frescos</span>
+        <span class="badge bg-danger text-white mx-1">Pollos Congelados</span>
+        <span class="badge bg-danger text-white mx-1">Precocidos</span>
+        <span class="badge bg-danger text-white mx-1">Huevos</span>
+      </div>
+  <!-- PRODUCTOS -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="col"><div class="card h-100"><img src="../icons/pollosanandres.webp" class="card-img-top" alt="Pollo San Andrés"><div class="card-body"><h5 class="card-title">Pollo Fresco San Andrés</h5><p class="card-text">Delicioso pollo fresco, ideal para tus comidas familiares.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/pollonoelma.jpeg" class="card-img-top" alt="Pollo Noelma"><div class="card-body"><h5 class="card-title">Pollo Fresco Noelma</h5><p class="card-text">Pollo fresco de alta calidad, perfecto para asados y guisos.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/sanpedrocongelado.jpg" class="card-img-top" alt="Pollo San Pedro"><div class="card-body"><h5 class="card-title">Pollo Congelado San Pedro</h5><p class="card-text">Pollo congelado de alta calidad, listo para cocinar.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/alas.jpg" class="card-img-top" alt="Alas"><div class="card-body"><h5 class="card-title">Alas</h5><p class="card-text">Alas trozadas frescas y congeladas.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/cuarto trasero.jpg" class="card-img-top" alt="Cuarto Trasero"><div class="card-body"><h5 class="card-title">Cuarto Trasero</h5><p class="card-text">Cuarto trasero fresco y congelado.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/supremafresca.webp" class="card-img-top" alt="Suprema"><div class="card-body"><h5 class="card-title">Suprema</h5><p class="card-text">Suprema fresca y congelada.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/pechugaconhues.jpg" class="card-img-top" alt="Pechuga"><div class="card-body"><h5 class="card-title">Pechuga</h5><p class="card-text">Pechuga fresca y congelada.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/medallonpollojyq.jpg" class="card-img-top" alt="Medallón de pollo"><div class="card-body"><h5 class="card-title">Medallón de pollo con jamón y queso</h5><p class="card-text">Precocido relleno, práctico y sabroso.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/medallonpescado.jpg" class="card-img-top" alt="Medallón pescado"><div class="card-body"><h5 class="card-title">Medallón de pescado con espinaca y queso</h5><p class="card-text">Ideal para comidas rápidas y nutritivas.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/patitas.jpg" class="card-img-top" alt="Patitas"><div class="card-body"><h5 class="card-title">Patitas de pollo</h5><p class="card-text">Clásicas patitas precocidas para chicos y grandes.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/bastoncitos.jpg" class="card-img-top" alt="Bastoncitos muzza"><div class="card-body"><h5 class="card-title">Bastoncitos de muzzarella</h5><p class="card-text">Croquetas crujientes rellenas de muzzarella.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/filetdemerluzarebozado.png" class="card-img-top" alt="Filet merluza"><div class="card-body"><h5 class="card-title">Filet de merluza rebozado</h5><p class="card-text">Filet rebozado listo para freír o al horno.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/filetalaromana.jpeg" class="card-img-top" alt="Filet romana"><div class="card-body"><h5 class="card-title">Filet de merluza a la romana</h5><p class="card-text">Receta clásica, lista para disfrutar.</p></div></div></div>
+        <div class="col"><div class="card h-100"><img src="../icons/huevos.webp" class="card-img-top" alt="Huevos"><div class="card-body"><h5 class="card-title">Huevos frescos</h5><p class="card-text">Por unidad, docena, maple o cajón. Frescura garantizada.</p></div></div></div>
+      </div>
+    </div>
+  </main>
 
-    <footer class="footer"> <!-- Pie de página -->
-      <p>&copy; 2025 Avícola Tello. Todos los derechos reservados.</p>
-      <p>
-        Tel: 2615677596 | Email: telloav@hotmail.com | Dirección: Av. Alem 737, San Martín, Mendoza
-      </p>
-      <p>
-        Redes Sociales:
-        <a href="https://www.facebook.com/avicola.tello">Facebook</a> |
-        <a href="https://www.instagram.com/avicola.tello">Instagram</a>
-      </p>
-    </footer>
-  </div>
+  <!-- FOOTER -->
+  <footer class="bg-light text-center py-4 border-top">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Avícola Tello. Todos los derechos reservados.</p>
+      <p class="mb-1">Tel: 2615677596 | Email: telloav@hotmail.com</p>
+      <div class="d-flex justify-content-center gap-3 fs-4 mt-2">
+        <a href="https://www.facebook.com/avicola.tello" class="text-dark" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/avicola.tello" class="text-dark" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://wa.me/5492615677596" class="text-dark" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="mailto:telloav@hotmail.com" class="text-dark"><i class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
