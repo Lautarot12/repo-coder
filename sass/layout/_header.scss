@@ -1,0 +1,15 @@
+  /* ESTILOS NAVBAR - HOVER Y COLOR BLANCO */
+  
+  /* Estilo base de los links de la navbar */
+  .navbar-nav .nav-link {
+    color: white !important;         /* Texto blanco */
+    transition: background-color 0.3s, color 0.3s;  /* Suavidad del hover */
+    padding: 5px 10px;               /* Espacio interno alrededor del texto */
+    border-radius: 5px;              /* Bordes redondeados */
+  }
+  
+  /* Hover  */
+  .navbar-nav .nav-link:hover {
+    background-color: white;         /* Fondo blanco de hover */
+    color: #b70f0a !important;       /* Color de texto rojo */
+  }

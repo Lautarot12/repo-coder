@@ -11,8 +11,15 @@
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
+  <!-- Favicon -->
+  <link rel="icon" href="../icons/favicon-32x32logorojo.png" type="image/png">
+
   <!-- CSS -->
   <link rel="stylesheet" href="../css/styles.css" />
+
+    <!-- AOS CSS for animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -37,13 +44,13 @@
   </nav>
 
   <!-- CONTENIDO PRINCIPAL -->
-  <main class="container py-5">
-    <h1 class="text-center mb-4">Formulario de contacto</h1>
+  <main class="container py-5" data-aos="zoom-in" data-aos-duration="1500">
+    <h1 class="text-center mb-4" >Formulario de contacto</h1>
     <p class="text-center mb-5">Si tienes alguna pregunta o consulta, no dudes en contactarnos.</p>
 
     <div class="row g-4">
       <!-- FORMULARIO -->
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1500">
         <form action="mailto:telloav@hotmail.com" method="post" enctype="text/plain">
           <div class="mb-3">
             <label for="name" class="form-label">Nombre:</label>
@@ -71,12 +78,14 @@
           </div>
 
           <!-- BOTÓN DE WHATSAPP -->
-          <a href="https://wa.me/5492615677596" class="btn btn-success mt-4" target="_blank">
-            <i class="bi bi-whatsapp me-2"></i>Escribinos por WhatsApp
-          </a>
+          <div data-aos="zoom-in" data-aos-duration="1500">
+            <a href="https://wa.me/5492615677596" class="btn btn-success mt-4" target="_blank">
+              <i class="bi bi-whatsapp me-2"></i>Escribinos por WhatsApp
+            </a>
+        </div>
 
           <!-- HORARIOS -->
-          <div class="mt-4">
+          <div class="mt-4" data-aos="zoom-in" data-aos-duration="1500">
             <h5>Horario de atención</h5>
             <p>Lunes a Sábado: 8:00 a 13:00 y 17:00 a 21:00</p>
             <p>Domingos y feriados: 10:00 a 13:00</p>
@@ -85,7 +94,7 @@
       </div>
 
       <!-- MAPA -->
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="zoom-in" data-aos-duration="1500">
         <iframe class="w-100 h-100 border" style="min-height: 400px"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4317.826935248044!2d-68.4648944234608!3d-33.087157973535554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e434686265aa1%3A0xe2383a598b4c0728!2sAv%C3%ADcola%20Tello!5e1!3m2!1sen!2sar!4v1747714337932!5m2!1sen!2sar"
           allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
@@ -110,5 +119,15 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <!-- AOS JS for animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Inicialización de AOS JS-->
+  
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>

@@ -1,0 +1,19 @@
+{
+  "name": "progamacion",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Lautaro</h1> <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lautarot12/repo-coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lautarot12/repo-coder/issues"
+  },
+  "homepage": "https://github.com/Lautarot12/repo-coder#readme"
+}

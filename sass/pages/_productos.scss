@@ -1,0 +1,6 @@
+/* Estilos para página productos */
+
+.tarjeta--productos:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+    transition: transform 0.5s ease; /* Suaviza la transición */
+}
