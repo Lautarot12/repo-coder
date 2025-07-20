@@ -1,8 +1,12 @@
 /* Estilos para página productos */
 
+.tarjeta--sp {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    border: 0.5px solid transparent;
+}
+
 .tarjeta--sp:hover {
-    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
-    transition: transform 0.5s ease; /* Suaviza la transición */
-    border: .5px solid black; /* Agrega borde al pasar el mouse */
-    box-shadow: .5px .5px .5px black; /* Agrega sombra al pasar el mouse */
+    transform: scale(1.1);
+    border-color: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }

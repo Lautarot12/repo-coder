@@ -22,11 +22,27 @@ body {
 }
 
 /* Estilos para página productos */
+.tarjeta--sp {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  border: 0.5px solid transparent;
+}
+
 .tarjeta--sp:hover {
-  transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
-  transition: transform 0.5s ease; /* Suaviza la transición */
-  border: 0.5px solid black; /* Agrega borde al pasar el mouse */
-  box-shadow: 0.5px 0.5px 0.5px black; /* Agrega sombra al pasar el mouse */
+  transform: scale(1.1);
+  border-color: black;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Animaciones de botones */
+.boton--cta {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 0.5px solid transparent;
+}
+
+.boton--cta:hover {
+  transform: scale(1.15);
+  border-color: #860000;
+  box-shadow: 0 5px 15px rgba(134, 0, 0, 0.4);
 }
 
 /*# sourceMappingURL=styles.css.map */

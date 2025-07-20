@@ -1,0 +1,12 @@
+/* Animaciones de botones */
+
+.boton--cta {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 0.5px solid transparent;
+}
+
+.boton--cta:hover {
+    transform: scale(1.15);
+    border-color: #860000;
+    box-shadow: 0 5px 15px rgba(134, 0, 0, 0.4);
+}
