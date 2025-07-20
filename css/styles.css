@@ -22,9 +22,11 @@ body {
 }
 
 /* Estilos para página productos */
-.tarjeta--productos:hover {
+.tarjeta--sp:hover {
   transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
   transition: transform 0.5s ease; /* Suaviza la transición */
+  border: 0.5px solid black; /* Agrega borde al pasar el mouse */
+  box-shadow: 0.5px 0.5px 0.5px black; /* Agrega sombra al pasar el mouse */
 }
 
 /*# sourceMappingURL=styles.css.map */
