@@ -4,7 +4,7 @@
   "description": "<h1 align=\"center\">Hi 👋, I'm Lautaro</h1> <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch sass/style.scss:css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Lautarot12/repo-coder/issues"
   },
-  "homepage": "https://github.com/Lautarot12/repo-coder#readme"
+  "homepage": "https://github.com/Lautarot12/repo-coder#readme",
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
 }
