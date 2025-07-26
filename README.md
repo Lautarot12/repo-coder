@@ -30,6 +30,7 @@
    npm install
 
 2. Iniciar la compilación de SCSS:
+
    npm run sass
 
 El archivo css/styles.css ya está incluido en el repositorio para que el sitio se visualice correctamente al momento de la entrega.
