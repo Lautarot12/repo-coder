@@ -1,38 +1,48 @@
-<h1 align="center">Hi 👋, I'm Lautaro</h1>
-<h3 align="center">A passionate frontend developer from Argentina</h3>
+# Responsive Website – HTML & CSS
 
-- 🔭 I’m currently working on **Avícola Tello's website**
-- 🌱 I’m currently learning **Front-end and Frameworks**
-- 📫 How to reach me **lautaro_t11@hotmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/lautaro-tello-5a2832321" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/lautaro-tello-5a2832321" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-  </a>
-</p>
+This project is a responsive website built using HTML and CSS. It focuses on semantic structure, modern layout design and responsive web design principles.
 
 ---
 
-## Cómo correr el proyecto
+## Features
 
-1. Instalar dependencias:
+- Responsive layout for desktop and mobile
+- Clean semantic HTML structure
+- Modern CSS styling
+- Mobile friendly design
 
-   bash
-   npm install
+---
 
-2. Iniciar la compilación de SCSS:
+## Technologies Used
 
-   npm run sass
+- HTML
+- CSS
+- SCSS
 
-El archivo css/styles.css ya está incluido en el repositorio para que el sitio se visualice correctamente al momento de la entrega.
+---
 
-También se ignoran los archivos .map para mantener el repositorio limpio.
+## Installation
+
+Clone the repository
+
+git clone https://github.com/Lautarot12/repo-coder
+
+
+Install dependencies
+
+npm install
+
+
+Compile SCSS
+
+npm run sass
+
+
+---
+
+## Author
+
+Developed by **Lautaro Tello**
+
+LinkedIn  
+https://linkedin.com/in/lautaro-tello-5a2832321
